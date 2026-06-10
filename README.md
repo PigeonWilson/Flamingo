@@ -1,7 +1,7 @@
 # Flamingo
 Zero-trust game launcher
 # instruction
-Build the project, put the solution in the same folder as the game to sandbox.
+Build the project, put the solution in the same folder as the game to sandbox or altertively download the latest release and unzip it in the same folder as the game to sandbox.
 # usage
 ZTALauncher.exe [program.exe] 
 # note
