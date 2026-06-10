@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\w11\\Documents\\GitHub\\Flamingo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2995E2B2-6181-0558-93D2-D9EC05F709E2}|CommonLibrary\\CommonLibrary.csproj|c:\\users\\w11\\documents\\github\\flamingo\\commonlibrary\\baseobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2995E2B2-6181-0558-93D2-D9EC05F709E2}|CommonLibrary\\CommonLibrary.csproj|solutionrelative:commonlibrary\\baseobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BaseObject.cs",
+              "DocumentMoniker": "C:\\Users\\w11\\Documents\\GitHub\\Flamingo\\CommonLibrary\\BaseObject.cs",
+              "RelativeDocumentMoniker": "CommonLibrary\\BaseObject.cs",
+              "ToolTip": "C:\\Users\\w11\\Documents\\GitHub\\Flamingo\\CommonLibrary\\BaseObject.cs",
+              "RelativeToolTip": "CommonLibrary\\BaseObject.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAwwDcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T18:25:25.436Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

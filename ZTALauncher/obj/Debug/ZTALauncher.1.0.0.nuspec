@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>ZTALauncher</id>
+    <version>1.0.0</version>
+    <authors>ZTALauncher</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="41efdb5e736f6795545f19b544b8af7a51242537" />
+    <dependencies>
+      <group targetFramework="net10.0-windows7.0" />
+    </dependencies>
+    <contentFiles>
+      <files include="any/net10.0-windows7.0/83b7c3318014316d7442ea970ea97d2c0fdd3b5e_full.ico" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="C:\Users\w11\Documents\GitHub\Flamingo\ZTALauncher\bin\Debug\net10.0-windows\ZTALauncher.runtimeconfig.json" target="lib\net10.0-windows7.0\ZTALauncher.runtimeconfig.json" />
+    <file src="C:\Users\w11\Documents\GitHub\Flamingo\ZTALauncher\bin\Debug\net10.0-windows\ZTALauncher.dll" target="lib\net10.0-windows7.0\ZTALauncher.dll" />
+    <file src="C:\Users\w11\Documents\GitHub\Flamingo\ZTALauncher\83b7c3318014316d7442ea970ea97d2c0fdd3b5e_full.ico" target="content\83b7c3318014316d7442ea970ea97d2c0fdd3b5e_full.ico" />
+    <file src="C:\Users\w11\Documents\GitHub\Flamingo\ZTALauncher\83b7c3318014316d7442ea970ea97d2c0fdd3b5e_full.ico" target="contentFiles\any\net10.0-windows7.0\83b7c3318014316d7442ea970ea97d2c0fdd3b5e_full.ico" />
+  </files>
+</package>
