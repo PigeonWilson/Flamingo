@@ -1,5 +1,5 @@
 # Flamingo
-Zero-trust game launcher
+command-line zero-trust game launcher for Microsoft Windows operating system written in C# .NET 10.
 # instruction
 Build the project, put the solution in the same folder as the game to sandbox.
 # usage
