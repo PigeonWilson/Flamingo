@@ -15,4 +15,7 @@ ZTALauncher will generate a base 64 signature of the executable and print it in 
 # Download the latest release: Cyanide 1.0
 https://github.com/PigeonWilson/Flamingo/releases/
 # Localization
-More language can be added to the embedded Resources.rsx file. The system handle local culture and load the appropriate string from resources. Currently support English. Don't forget to add the iso language code to this file https://github.com/PigeonWilson/Flamingo/blob/main/ZTALauncher/Enums.cs
+More language can be added to the embedded Resources.rsx file. The system handle local culture and load the appropriate string from resources. Currently support English. 
+
+## to add to localizatib
+Don't forget to add the iso language code to this file https://github.com/PigeonWilson/Flamingo/blob/main/ZTALauncher/Enums.cs
