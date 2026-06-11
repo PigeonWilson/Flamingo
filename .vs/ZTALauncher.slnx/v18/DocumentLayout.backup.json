@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\w11\\Documents\\GitHub\\Flamingo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4AF3591C-1E7F-5B16-7A7C-F61335F99CD7}|ZTALauncher\\ZTALauncher.csproj|c:\\users\\w11\\documents\\github\\flamingo\\ztalauncher\\common\\processlauncher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4AF3591C-1E7F-5B16-7A7C-F61335F99CD7}|ZTALauncher\\ZTALauncher.csproj|solutionrelative:ztalauncher\\common\\processlauncher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4AF3591C-1E7F-5B16-7A7C-F61335F99CD7}|ZTALauncher\\ZTALauncher.csproj|c:\\users\\w11\\documents\\github\\flamingo\\ztalauncher\\common\\baseobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4AF3591C-1E7F-5B16-7A7C-F61335F99CD7}|ZTALauncher\\ZTALauncher.csproj|solutionrelative:ztalauncher\\common\\baseobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4AF3591C-1E7F-5B16-7A7C-F61335F99CD7}|ZTALauncher\\ZTALauncher.csproj|c:\\users\\w11\\documents\\github\\flamingo\\ztalauncher\\mode\\database\\table\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4AF3591C-1E7F-5B16-7A7C-F61335F99CD7}|ZTALauncher\\ZTALauncher.csproj|solutionrelative:ztalauncher\\mode\\database\\table\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4AF3591C-1E7F-5B16-7A7C-F61335F99CD7}|ZTALauncher\\ZTALauncher.csproj|c:\\users\\w11\\documents\\github\\flamingo\\ztalauncher\\common\\model\\dynamicxml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AF3591C-1E7F-5B16-7A7C-F61335F99CD7}|ZTALauncher\\ZTALauncher.csproj|solutionrelative:ztalauncher\\common\\model\\dynamicxml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4AF3591C-1E7F-5B16-7A7C-F61335F99CD7}|ZTALauncher\\ZTALauncher.csproj|c:\\users\\w11\\documents\\github\\flamingo\\ztalauncher\\mode\\database\\table\\itable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4AF3591C-1E7F-5B16-7A7C-F61335F99CD7}|ZTALauncher\\ZTALauncher.csproj|solutionrelative:ztalauncher\\mode\\database\\table\\itable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AF3591C-1E7F-5B16-7A7C-F61335F99CD7}|ZTALauncher\\ZTALauncher.csproj|c:\\users\\w11\\documents\\github\\flamingo\\ztalauncher\\mode\\database\\table\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AF3591C-1E7F-5B16-7A7C-F61335F99CD7}|ZTALauncher\\ZTALauncher.csproj|solutionrelative:ztalauncher\\mode\\database\\table\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,40 +27,28 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ProcessLauncher.cs",
-              "DocumentMoniker": "C:\\Users\\w11\\Documents\\GitHub\\Flamingo\\ZTALauncher\\Common\\ProcessLauncher.cs",
-              "RelativeDocumentMoniker": "ZTALauncher\\Common\\ProcessLauncher.cs",
-              "ToolTip": "C:\\Users\\w11\\Documents\\GitHub\\Flamingo\\ZTALauncher\\Common\\ProcessLauncher.cs",
-              "RelativeToolTip": "ZTALauncher\\Common\\ProcessLauncher.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAkAAAAAAAAAA==",
+              "Title": "DynamicXML.cs",
+              "DocumentMoniker": "C:\\Users\\w11\\Documents\\GitHub\\Flamingo\\ZTALauncher\\Common\\Model\\DynamicXML.cs",
+              "RelativeDocumentMoniker": "ZTALauncher\\Common\\Model\\DynamicXML.cs",
+              "ToolTip": "C:\\Users\\w11\\Documents\\GitHub\\Flamingo\\ZTALauncher\\Common\\Model\\DynamicXML.cs*",
+              "RelativeToolTip": "ZTALauncher\\Common\\Model\\DynamicXML.cs*",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAIwAkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-11T11:07:11.155Z",
+              "WhenOpened": "2026-06-11T11:15:41.154Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "BaseObject.cs",
-              "DocumentMoniker": "C:\\Users\\w11\\Documents\\GitHub\\Flamingo\\ZTALauncher\\Common\\BaseObject.cs",
-              "RelativeDocumentMoniker": "ZTALauncher\\Common\\BaseObject.cs",
-              "ToolTip": "C:\\Users\\w11\\Documents\\GitHub\\Flamingo\\ZTALauncher\\Common\\BaseObject.cs",
-              "RelativeToolTip": "ZTALauncher\\Common\\BaseObject.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAowAQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-11T11:07:01.728Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "ITable.cs",
               "DocumentMoniker": "C:\\Users\\w11\\Documents\\GitHub\\Flamingo\\ZTALauncher\\Mode\\Database\\Table\\ITable.cs",
               "RelativeDocumentMoniker": "ZTALauncher\\Mode\\Database\\Table\\ITable.cs",
               "ToolTip": "C:\\Users\\w11\\Documents\\GitHub\\Flamingo\\ZTALauncher\\Mode\\Database\\Table\\ITable.cs",
               "RelativeToolTip": "ZTALauncher\\Mode\\Database\\Table\\ITable.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBMAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-11T08:25:18.554Z"
+              "WhenOpened": "2026-06-11T08:25:18.554Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -76,8 +60,7 @@
               "RelativeToolTip": "ZTALauncher\\Mode\\Database\\Table\\Configuration.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAA5wAwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-11T07:55:03.807Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-11T07:55:03.807Z"
             }
           ]
         }

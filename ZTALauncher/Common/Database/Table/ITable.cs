@@ -1,4 +1,4 @@
-﻿namespace ZTALauncher.Mode.Database.Table
+﻿namespace ZTALauncher.Common.Database.Table
 {
     public interface ITable
     {

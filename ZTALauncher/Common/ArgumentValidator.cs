@@ -1,10 +1,7 @@
 ﻿using CommonLibrary;
-using System;
-using System.Collections.Generic;
 using System.Security.Cryptography;
-using System.Text;
 
-namespace ZTALauncher
+namespace ZTALauncher.Common
 {
     internal class ArgumentValidator : BaseObject
     {

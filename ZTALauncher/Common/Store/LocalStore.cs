@@ -1,7 +1,7 @@
 ﻿using System.Text.Json;
 using System.Text.Json.Serialization;
 
-namespace ZTALauncher.Mode.Store
+namespace ZTALauncher.Common.Store
 {
     public class LocalStore
     {

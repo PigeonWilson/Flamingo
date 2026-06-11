@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace ZTALauncher
+﻿
+namespace ZTALauncher.Common
 {
     public class Enums
     {

@@ -1,6 +1,6 @@
 ﻿using System.Data.SQLite;
 
-namespace ZTALauncher.Mode.Database.Table
+namespace ZTALauncher.Common.Database.Table
 {
     public sealed class Configuration : ITable
     {
@@ -33,7 +33,7 @@ namespace ZTALauncher.Mode.Database.Table
         {
             using (var connection = new SQLiteConnection(Utility.GetConnectionString()))
             {
-                ZTALauncher.Mode.Database.Table.Configuration configuration = new();
+                Configuration configuration = new();
                 string selectQuery = $"SELECT * FROM {GetName()} WHERE Id = {id};";
                 using (var cmd = new SQLiteCommand(selectQuery, connection))
                 using (var reader = cmd.ExecuteReader())
