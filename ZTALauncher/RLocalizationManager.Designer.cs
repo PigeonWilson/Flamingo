@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ZTALauncher {
+namespace Launcher {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace ZTALauncher {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("ZTALauncher.RLocalizationManager", typeof(RLocalizationManager).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Launcher.RLocalizationManager", typeof(RLocalizationManager).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
