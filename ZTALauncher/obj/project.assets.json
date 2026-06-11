@@ -41,9 +41,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\w11\\Documents\\GitHub\\Flamingo\\ZTALauncher\\ZTALauncher.csproj",
-      "projectName": "ZTALauncher",
-      "projectPath": "C:\\Users\\w11\\Documents\\GitHub\\Flamingo\\ZTALauncher\\ZTALauncher.csproj",
+      "projectUniqueName": "C:\\Users\\w11\\Documents\\GitHub\\Flamingo\\ZTALauncher\\Launcher.csproj",
+      "projectName": "Launcher",
+      "projectPath": "C:\\Users\\w11\\Documents\\GitHub\\Flamingo\\ZTALauncher\\Launcher.csproj",
       "packagesPath": "C:\\Users\\w11\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\w11\\Documents\\GitHub\\Flamingo\\ZTALauncher\\obj\\",
       "projectStyle": "PackageReference",
