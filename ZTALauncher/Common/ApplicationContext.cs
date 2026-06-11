@@ -1,10 +1,9 @@
-﻿using ZTALauncher.Common;
-using ZTALauncher.Common.Model;
+﻿using ZTALauncher.Common.Model;
 using ZTALauncher.Common.Store;
 using ZTALauncher.Mode;
 using static ZTALauncher.Common.Enums;
 
-namespace ZTALauncher
+namespace ZTALauncher.Common
 {
     public sealed class ApplicationContext
     {
@@ -60,9 +59,9 @@ namespace ZTALauncher
 
             this.Mode = this.SelectedMode switch
             {
-                SupportedModes.Vanilla => new ZTALauncher.Mode.Vanilla.Mode(this.ExecutablePath),
-                SupportedModes.Steam => new ZTALauncher.Mode.Steam.Mode(this.ExecutablePath),
-                _ => new ZTALauncher.Mode.Vanilla.Mode(this.ExecutablePath),
+                SupportedModes.Vanilla => new Mode.Vanilla.Mode(this.ExecutablePath),
+                SupportedModes.Steam => new Mode.Steam.Mode(this.ExecutablePath),
+                _ => new Mode.Vanilla.Mode(this.ExecutablePath),
             };
             this.LocalStore.Configuration = new Configuration() 
             { 
