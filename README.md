@@ -17,5 +17,5 @@ https://github.com/PigeonWilson/Flamingo/releases/
 # Localization
 More language can be added to the embedded Resources.rsx file. The system handle local culture and load the appropriate string from resources. Currently support English. 
 
-## to add to localizatib
+## to add to localization
 Don't forget to add the iso language code to this file https://github.com/PigeonWilson/Flamingo/blob/main/ZTALauncher/Enums.cs
