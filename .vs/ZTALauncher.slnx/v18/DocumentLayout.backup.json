@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\w11\\Documents\\GitHub\\Flamingo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4AF3591C-1E7F-5B16-7A7C-F61335F99CD7}|ZTALauncher\\ZTALauncher.csproj|c:\\users\\w11\\documents\\github\\flamingo\\ztalauncher\\ztalauncher.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{4AF3591C-1E7F-5B16-7A7C-F61335F99CD7}|ZTALauncher\\ZTALauncher.csproj|solutionrelative:ztalauncher\\ztalauncher.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{4AF3591C-1E7F-5B16-7A7C-F61335F99CD7}|ZTALauncher\\Launcher.csproj|c:\\users\\w11\\documents\\github\\flamingo\\ztalauncher\\launcher.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4AF3591C-1E7F-5B16-7A7C-F61335F99CD7}|ZTALauncher\\Launcher.csproj|solutionrelative:ztalauncher\\launcher.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4AF3591C-1E7F-5B16-7A7C-F61335F99CD7}|ZTALauncher\\ZTALauncher.csproj|c:\\users\\w11\\documents\\github\\flamingo\\ztalauncher\\common\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -79,12 +79,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ZTALauncher",
-              "DocumentMoniker": "C:\\Users\\w11\\Documents\\GitHub\\Flamingo\\ZTALauncher\\ZTALauncher.csproj",
-              "RelativeDocumentMoniker": "ZTALauncher\\ZTALauncher.csproj",
-              "ToolTip": "C:\\Users\\w11\\Documents\\GitHub\\Flamingo\\ZTALauncher\\ZTALauncher.csproj",
-              "RelativeToolTip": "ZTALauncher\\ZTALauncher.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "ZTALauncher.csproj",
+              "DocumentMoniker": "C:\\Users\\w11\\Documents\\GitHub\\Flamingo\\ZTALauncher\\Launcher.csproj",
+              "RelativeDocumentMoniker": "ZTALauncher\\Launcher.csproj",
+              "ToolTip": "C:\\Users\\w11\\Documents\\GitHub\\Flamingo\\ZTALauncher\\Launcher.csproj",
+              "RelativeToolTip": "ZTALauncher\\Launcher.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2026-06-11T11:37:28.778Z",
               "EditorCaption": ""
@@ -111,8 +111,7 @@
               "RelativeToolTip": "ZTALauncher\\Common\\Database\\Table\\Mod.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-11T11:27:59.821Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-11T11:27:59.821Z"
             },
             {
               "$type": "Document",
@@ -184,8 +183,7 @@
               "RelativeToolTip": "ZTALauncher\\Common\\Enums.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-11T11:24:44.026Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-11T11:24:44.026Z"
             },
             {
               "$type": "Document",
@@ -197,8 +195,7 @@
               "RelativeToolTip": "ZTALauncher\\Common\\ApplicationContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-11T11:19:06.705Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-11T11:19:06.705Z"
             },
             {
               "$type": "Document",
@@ -222,8 +219,7 @@
               "RelativeToolTip": "ZTALauncher\\Program.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAQwB4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-11T11:17:16.009Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-11T11:17:16.009Z"
             },
             {
               "$type": "Document",
