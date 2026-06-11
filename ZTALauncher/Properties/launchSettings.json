@@ -2,7 +2,7 @@
   "profiles": {
     "ZTALauncher": {
       "commandName": "Project",
-      "commandLineArgs": "\"C:\\Program Files\\WindowsApps\\Microsoft.WindowsNotepad_11.2604.5.0_x64__8wekyb3d8bbwe\\Notepad\\Notepad.exe\" \"verbose\""
+      "commandLineArgs": "\"C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\RimWorldWin64.exe\" \"Steam\""
     }
   }
 }

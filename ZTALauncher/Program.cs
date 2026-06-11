@@ -1,19 +1,37 @@
-﻿using System.Diagnostics;
-using System.Text;
+﻿using System.Text;
 using ZTALauncher;
+using static ZTALauncher.Enums;
 
-
-const string verbose_mode = "verbose";
+void PrintAndTerminateErrorWrongArgument()
+{
+    StringBuilder sb = new StringBuilder();
+    sb.Append(ZTAContext.Instance.Localization.GetString(Localization.TruthSource.missingArgument));
+    sb.Append(ZTAContext.Instance.Localization.GetString(Localization.TruthSource.exitCodeInfoMsg));
+    sb.Append(ArgumentValidator.FaultyExitCode);
+    Console.WriteLine(sb.ToString());
+    Environment.Exit(ArgumentValidator.FaultyExitCode);
+}
 
 try
 {
-    var localization = new Localization();
     bool verbose = false;
+    SupportedModes mode = SupportedModes.Vanilla;
 
-    if (args.Length == 2 && args[1] == verbose_mode)
+    if (args.Length < 2)
+    {
+        PrintAndTerminateErrorWrongArgument();
+    }
+
+    string executablePath = args[0];
+    string modeSelection = args[1];
+
+    if (args.Length == 3)
     {
         verbose = true;
     }
+
+    if (modeSelection.ToLower() == "steam") mode = SupportedModes.Steam;
+    if (modeSelection.ToLower() == "vanilla") mode = SupportedModes.Vanilla;
 
     if (args.Length > 0)
     {
@@ -22,30 +40,35 @@ try
         if (!ArgumentValidator.CheckExecutableAccessibility(argumentValidator.ExecutablePath))
         {
             StringBuilder sb = new StringBuilder();
-            sb.Append(localization.GetString(Localization.TruthSource.errorFileAccessibility));
-            sb.Append(localization.GetString(Localization.TruthSource.exitCodeInfoMsg));
+            sb.Append(ZTAContext.Instance.Localization.GetString(Localization.TruthSource.errorFileAccessibility));
+            sb.Append(ZTAContext.Instance.Localization.GetString(Localization.TruthSource.exitCodeInfoMsg));
             if (verbose) Console.WriteLine($"{sb.ToString()} {ArgumentValidator.FaultyExitCode}");
             Environment.Exit(ArgumentValidator.FaultyExitCode);
         }
         else
         {
-            if (verbose) Console.WriteLine(localization.GetString(Localization.TruthSource.launching));
+            if (verbose) Console.WriteLine(ZTAContext.Instance.Localization.GetString(Localization.TruthSource.launching));
+            
+            ZTAContext.Instance.Set(mode, argumentValidator.ExecutablePath);
+            ZTAContext.Instance.LoadMode();
+            if (ZTAContext.Instance.LocalStore.Game != null 
+                && !string.IsNullOrEmpty(ZTAContext.Instance.LocalStore.Game.ExecutableSignature))
+            {
+                Console.WriteLine(ZTAContext.Instance.LocalStore.Game.ExecutableSignature);
+            }
+
+            // TODO: generate an error if it was not possible to print the signature
+
             CommonLibrary.ProcessLauncher.LaunchLowIntegrityProcess(argumentValidator.ExecutablePath);
-            var fileSignature = ArgumentValidator.SignFile(argumentValidator.ExecutablePath);
-            var readableSignature = Convert.ToBase64String(fileSignature);
-            Console.WriteLine(readableSignature);
+
+            Console.ReadKey();
+
             Environment.Exit(ArgumentValidator.SuccessExitCode);
         }
     }
     else
     {
-        StringBuilder sb = new StringBuilder();
-        sb.Append(localization.GetString(Localization.TruthSource.missingArgument));
-        sb.Append(localization.GetString(Localization.TruthSource.exitCodeInfoMsg));
-        sb.Append(ArgumentValidator.FaultyExitCode);
-        if (verbose) Console.WriteLine(sb.ToString());
-        Console.WriteLine($"{localization.GetString("tip")} {verbose_mode}");
-        Environment.Exit(ArgumentValidator.FaultyExitCode);
+        PrintAndTerminateErrorWrongArgument();
     }
 }
 catch (Exception e) 

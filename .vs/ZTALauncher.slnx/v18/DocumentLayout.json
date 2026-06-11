@@ -3,28 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\w11\\Documents\\GitHub\\Flamingo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4AF3591C-1E7F-5B16-7A7C-F61335F99CD7}|ZTALauncher\\ZTALauncher.csproj|c:\\users\\w11\\documents\\github\\flamingo\\ztalauncher\\app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{4AF3591C-1E7F-5B16-7A7C-F61335F99CD7}|ZTALauncher\\ZTALauncher.csproj|solutionrelative:ztalauncher\\app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4AF3591C-1E7F-5B16-7A7C-F61335F99CD7}|ZTALauncher\\ZTALauncher.csproj|c:\\users\\w11\\documents\\github\\flamingo\\ztalauncher\\ztalauncher.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{4AF3591C-1E7F-5B16-7A7C-F61335F99CD7}|ZTALauncher\\ZTALauncher.csproj|solutionrelative:ztalauncher\\ztalauncher.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4AF3591C-1E7F-5B16-7A7C-F61335F99CD7}|ZTALauncher\\ZTALauncher.csproj|c:\\users\\w11\\documents\\github\\flamingo\\ztalauncher\\argumentvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4AF3591C-1E7F-5B16-7A7C-F61335F99CD7}|ZTALauncher\\ZTALauncher.csproj|solutionrelative:ztalauncher\\argumentvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4AF3591C-1E7F-5B16-7A7C-F61335F99CD7}|ZTALauncher\\ZTALauncher.csproj|c:\\users\\w11\\documents\\github\\flamingo\\ztalauncher\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4AF3591C-1E7F-5B16-7A7C-F61335F99CD7}|ZTALauncher\\ZTALauncher.csproj|solutionrelative:ztalauncher\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4AF3591C-1E7F-5B16-7A7C-F61335F99CD7}|ZTALauncher\\ZTALauncher.csproj|c:\\users\\w11\\documents\\github\\flamingo\\ztalauncher\\localizationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4AF3591C-1E7F-5B16-7A7C-F61335F99CD7}|ZTALauncher\\ZTALauncher.csproj|solutionrelative:ztalauncher\\localizationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4AF3591C-1E7F-5B16-7A7C-F61335F99CD7}|ZTALauncher\\ZTALauncher.csproj|c:\\users\\w11\\documents\\github\\flamingo\\ztalauncher\\ztacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AF3591C-1E7F-5B16-7A7C-F61335F99CD7}|ZTALauncher\\ZTALauncher.csproj|solutionrelative:ztalauncher\\ztacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4AF3591C-1E7F-5B16-7A7C-F61335F99CD7}|ZTALauncher\\ZTALauncher.csproj|c:\\users\\w11\\documents\\github\\flamingo\\ztalauncher\\rlocalizationmanager.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
-      "RelativeMoniker": "D:0:0:{4AF3591C-1E7F-5B16-7A7C-F61335F99CD7}|ZTALauncher\\ZTALauncher.csproj|solutionrelative:ztalauncher\\rlocalizationmanager.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+      "AbsoluteMoniker": "D:0:0:{4AF3591C-1E7F-5B16-7A7C-F61335F99CD7}|ZTALauncher\\ZTALauncher.csproj|c:\\users\\w11\\documents\\github\\flamingo\\ztalauncher\\mode\\store\\mod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AF3591C-1E7F-5B16-7A7C-F61335F99CD7}|ZTALauncher\\ZTALauncher.csproj|solutionrelative:ztalauncher\\mode\\store\\mod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AF3591C-1E7F-5B16-7A7C-F61335F99CD7}|ZTALauncher\\ZTALauncher.csproj|c:\\users\\w11\\documents\\github\\flamingo\\ztalauncher\\mode\\steam\\model\\dynamicxml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AF3591C-1E7F-5B16-7A7C-F61335F99CD7}|ZTALauncher\\ZTALauncher.csproj|solutionrelative:ztalauncher\\mode\\steam\\model\\dynamicxml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AF3591C-1E7F-5B16-7A7C-F61335F99CD7}|ZTALauncher\\ZTALauncher.csproj|c:\\users\\w11\\documents\\github\\flamingo\\ztalauncher\\mode\\steam\\mode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AF3591C-1E7F-5B16-7A7C-F61335F99CD7}|ZTALauncher\\ZTALauncher.csproj|solutionrelative:ztalauncher\\mode\\steam\\mode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AF3591C-1E7F-5B16-7A7C-F61335F99CD7}|ZTALauncher\\ZTALauncher.csproj|c:\\users\\w11\\documents\\github\\flamingo\\ztalauncher\\mode\\imode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AF3591C-1E7F-5B16-7A7C-F61335F99CD7}|ZTALauncher\\ZTALauncher.csproj|solutionrelative:ztalauncher\\mode\\imode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AF3591C-1E7F-5B16-7A7C-F61335F99CD7}|ZTALauncher\\ZTALauncher.csproj|c:\\users\\w11\\documents\\github\\flamingo\\ztalauncher\\mode\\vanilla\\mode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AF3591C-1E7F-5B16-7A7C-F61335F99CD7}|ZTALauncher\\ZTALauncher.csproj|solutionrelative:ztalauncher\\mode\\vanilla\\mode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AF3591C-1E7F-5B16-7A7C-F61335F99CD7}|ZTALauncher\\ZTALauncher.csproj|c:\\users\\w11\\documents\\github\\flamingo\\ztalauncher\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AF3591C-1E7F-5B16-7A7C-F61335F99CD7}|ZTALauncher\\ZTALauncher.csproj|solutionrelative:ztalauncher\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,88 +42,110 @@
       "DocumentGroups": [
         {
           "DockedWidth": 229,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ArgumentValidator.cs",
-              "DocumentMoniker": "C:\\Users\\w11\\Documents\\GitHub\\Flamingo\\ZTALauncher\\ArgumentValidator.cs",
-              "RelativeDocumentMoniker": "ZTALauncher\\ArgumentValidator.cs",
-              "ToolTip": "C:\\Users\\w11\\Documents\\GitHub\\Flamingo\\ZTALauncher\\ArgumentValidator.cs",
-              "RelativeToolTip": "ZTALauncher\\ArgumentValidator.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAwwDQAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "Enums.cs",
+              "DocumentMoniker": "C:\\Users\\w11\\Documents\\GitHub\\Flamingo\\ZTALauncher\\Enums.cs",
+              "RelativeDocumentMoniker": "ZTALauncher\\Enums.cs",
+              "ToolTip": "C:\\Users\\w11\\Documents\\GitHub\\Flamingo\\ZTALauncher\\Enums.cs",
+              "RelativeToolTip": "ZTALauncher\\Enums.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-10T18:24:32.291Z",
+              "WhenOpened": "2026-06-11T03:12:21.232Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "app.manifest",
-              "DocumentMoniker": "C:\\Users\\w11\\Documents\\GitHub\\Flamingo\\ZTALauncher\\app.manifest",
-              "RelativeDocumentMoniker": "ZTALauncher\\app.manifest",
-              "ToolTip": "C:\\Users\\w11\\Documents\\GitHub\\Flamingo\\ZTALauncher\\app.manifest",
-              "RelativeToolTip": "ZTALauncher\\app.manifest",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001203|",
-              "WhenOpened": "2026-06-10T21:29:30.462Z",
+              "DocumentIndex": 6,
+              "Title": "Mode.cs",
+              "DocumentMoniker": "C:\\Users\\w11\\Documents\\GitHub\\Flamingo\\ZTALauncher\\Mode\\Vanilla\\Mode.cs",
+              "RelativeDocumentMoniker": "ZTALauncher\\Mode\\Vanilla\\Mode.cs",
+              "ToolTip": "C:\\Users\\w11\\Documents\\GitHub\\Flamingo\\ZTALauncher\\Mode\\Vanilla\\Mode.cs",
+              "RelativeToolTip": "ZTALauncher\\Mode\\Vanilla\\Mode.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T03:13:38.759Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ZTALauncher",
-              "DocumentMoniker": "C:\\Users\\w11\\Documents\\GitHub\\Flamingo\\ZTALauncher\\ZTALauncher.csproj",
-              "RelativeDocumentMoniker": "ZTALauncher\\ZTALauncher.csproj",
-              "ToolTip": "C:\\Users\\w11\\Documents\\GitHub\\Flamingo\\ZTALauncher\\ZTALauncher.csproj",
-              "RelativeToolTip": "ZTALauncher\\ZTALauncher.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-06-10T20:51:52.892Z",
+              "DocumentIndex": 3,
+              "Title": "DynamicXML.cs",
+              "DocumentMoniker": "C:\\Users\\w11\\Documents\\GitHub\\Flamingo\\ZTALauncher\\Mode\\Steam\\Model\\DynamicXML.cs",
+              "RelativeDocumentMoniker": "ZTALauncher\\Mode\\Steam\\Model\\DynamicXML.cs",
+              "ToolTip": "C:\\Users\\w11\\Documents\\GitHub\\Flamingo\\ZTALauncher\\Mode\\Steam\\Model\\DynamicXML.cs",
+              "RelativeToolTip": "ZTALauncher\\Mode\\Steam\\Model\\DynamicXML.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T06:30:02.252Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "LocalizationManager.cs",
-              "DocumentMoniker": "C:\\Users\\w11\\Documents\\GitHub\\Flamingo\\ZTALauncher\\LocalizationManager.cs",
-              "RelativeDocumentMoniker": "ZTALauncher\\LocalizationManager.cs",
-              "ToolTip": "C:\\Users\\w11\\Documents\\GitHub\\Flamingo\\ZTALauncher\\LocalizationManager.cs",
-              "RelativeToolTip": "ZTALauncher\\LocalizationManager.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAwwDwAAAAqAAAAAAAAAA==",
+              "Title": "Mode.cs",
+              "DocumentMoniker": "C:\\Users\\w11\\Documents\\GitHub\\Flamingo\\ZTALauncher\\Mode\\Steam\\Mode.cs",
+              "RelativeDocumentMoniker": "ZTALauncher\\Mode\\Steam\\Mode.cs",
+              "ToolTip": "C:\\Users\\w11\\Documents\\GitHub\\Flamingo\\ZTALauncher\\Mode\\Steam\\Mode.cs",
+              "RelativeToolTip": "ZTALauncher\\Mode\\Steam\\Mode.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAtwFgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-10T20:43:21.348Z",
+              "WhenOpened": "2026-06-11T05:03:28.181Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "RLocalizationManager.resx",
-              "DocumentMoniker": "C:\\Users\\w11\\Documents\\GitHub\\Flamingo\\ZTALauncher\\RLocalizationManager.resx",
-              "RelativeDocumentMoniker": "ZTALauncher\\RLocalizationManager.resx",
-              "ToolTip": "C:\\Users\\w11\\Documents\\GitHub\\Flamingo\\ZTALauncher\\RLocalizationManager.resx",
-              "RelativeToolTip": "ZTALauncher\\RLocalizationManager.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2026-06-10T20:32:09.767Z"
+              "Title": "IMode.cs",
+              "DocumentMoniker": "C:\\Users\\w11\\Documents\\GitHub\\Flamingo\\ZTALauncher\\Mode\\IMode.cs",
+              "RelativeDocumentMoniker": "ZTALauncher\\Mode\\IMode.cs",
+              "ToolTip": "C:\\Users\\w11\\Documents\\GitHub\\Flamingo\\ZTALauncher\\Mode\\IMode.cs",
+              "RelativeToolTip": "ZTALauncher\\Mode\\IMode.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAUwBIAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T04:53:39.826Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "ZTAContext.cs",
+              "DocumentMoniker": "C:\\Users\\w11\\Documents\\GitHub\\Flamingo\\ZTALauncher\\ZTAContext.cs",
+              "RelativeDocumentMoniker": "ZTALauncher\\ZTAContext.cs",
+              "ToolTip": "C:\\Users\\w11\\Documents\\GitHub\\Flamingo\\ZTALauncher\\ZTAContext.cs",
+              "RelativeToolTip": "ZTALauncher\\ZTAContext.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAgwF8AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T02:39:30.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Mod.cs",
+              "DocumentMoniker": "C:\\Users\\w11\\Documents\\GitHub\\Flamingo\\ZTALauncher\\Mode\\Store\\Mod.cs",
+              "RelativeDocumentMoniker": "ZTALauncher\\Mode\\Store\\Mod.cs",
+              "ToolTip": "C:\\Users\\w11\\Documents\\GitHub\\Flamingo\\ZTALauncher\\Mode\\Store\\Mod.cs",
+              "RelativeToolTip": "ZTALauncher\\Mode\\Store\\Mod.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T02:24:51.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\w11\\Documents\\GitHub\\Flamingo\\ZTALauncher\\Program.cs",
               "RelativeDocumentMoniker": "ZTALauncher\\Program.cs",
               "ToolTip": "C:\\Users\\w11\\Documents\\GitHub\\Flamingo\\ZTALauncher\\Program.cs",
               "RelativeToolTip": "ZTALauncher\\Program.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACUAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAADUAAAAAAAAAAAAAADUAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-10T18:22:18.923Z",
               "EditorCaption": ""

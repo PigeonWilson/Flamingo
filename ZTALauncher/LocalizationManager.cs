@@ -9,7 +9,7 @@ using static ZTALauncher.Enums;
 
 namespace ZTALauncher
 {
-    internal class Localization : BaseObject
+    public class Localization : BaseObject
     {
         #region localization keys
         public static class TruthSource
