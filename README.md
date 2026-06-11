@@ -1,4 +1,4 @@
-# Flamingo
+# Cyanide
 command-line zero-trust game launcher for Microsoft Windows operating system written in C# .NET 10. 
 # How it works?
 Launch a game in low integrity mode. The game get launched as low integrity process which is very restricted, it cannot write to the registry and it’s limited from writing to most locations in the current user’s profile.
