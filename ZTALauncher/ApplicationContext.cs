@@ -1,11 +1,12 @@
-﻿using ZTALauncher.Mode;
-using ZTALauncher.Mode.Steam.Model;
-using ZTALauncher.Mode.Store;
-using static ZTALauncher.Enums;
+﻿using ZTALauncher.Common;
+using ZTALauncher.Common.Model;
+using ZTALauncher.Common.Store;
+using ZTALauncher.Mode;
+using static ZTALauncher.Common.Enums;
 
 namespace ZTALauncher
 {
-    public sealed class ZTAContext
+    public sealed class ApplicationContext
     {
         public bool IsSet {  get; private set; }
         public Localization Localization { get; private set; }
@@ -14,12 +15,12 @@ namespace ZTALauncher
         public LocalStore LocalStore { get; private set; }
         public string? ExecutablePath {  get; private set; }
 
-        private static readonly Lazy<ZTAContext> lazy =
-            new Lazy<ZTAContext>(() => new ZTAContext());
+        private static readonly Lazy<ApplicationContext> lazy =
+            new Lazy<ApplicationContext>(() => new ApplicationContext());
 
-        public static ZTAContext Instance { get { return lazy.Value; } }
+        public static ApplicationContext Instance { get { return lazy.Value; } }
 
-        private ZTAContext() 
+        private ApplicationContext() 
         {
             this.IsSet = false;
             this.SelectedMode = SupportedModes.Vanilla;

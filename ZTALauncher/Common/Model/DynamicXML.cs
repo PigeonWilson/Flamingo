@@ -1,7 +1,7 @@
 ﻿using System.Dynamic;
 using System.Xml.Linq;
 
-namespace ZTALauncher.Mode.Steam.Model
+namespace ZTALauncher.Common.Model
 {
     public class DynamicXml : DynamicObject
     {

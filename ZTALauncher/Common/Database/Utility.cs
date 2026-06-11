@@ -1,6 +1,6 @@
 ﻿using System.Data.SQLite;
 
-namespace ZTALauncher.Mode.Database
+namespace ZTALauncher.Common.Database
 {
     public static class Utility
     {

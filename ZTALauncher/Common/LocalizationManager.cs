@@ -1,13 +1,8 @@
 ﻿using CommonLibrary;
-using System;
-using System.Collections.Generic;
 using System.Globalization;
-using System.Reflection;
-using System.Resources;
-using System.Text;
-using static ZTALauncher.Enums;
+using static ZTALauncher.Common.Enums;
 
-namespace ZTALauncher
+namespace ZTALauncher.Common
 {
     public class Localization : BaseObject
     {
@@ -49,19 +44,6 @@ namespace ZTALauncher
             var modifier = $"{GetSupportLocalizationLanguageCode().ToString()}_{key}";
             var val = RLocalizationManager.ResourceManager.GetString(modifier);
             return val;
-        }
-
-        public void ConsoleWriteLine(string[] keys, string extra)
-        {
-            StringBuilder sb = new StringBuilder();
-            foreach (string key in keys)
-            {
-               
-                string val = $"{string.Empty}{key}";
-                sb.Append(GetString(val));
-            }
-
-            Console.WriteLine($"{sb.ToString()} {extra}");
         }
     }
 }

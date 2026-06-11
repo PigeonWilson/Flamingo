@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Text.Json.Serialization;
 
-namespace ZTALauncher.Mode.Store
+namespace ZTALauncher.Common.Store
 {
     public sealed class Configuration
     {

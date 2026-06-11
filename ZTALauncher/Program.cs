@@ -1,12 +1,13 @@
 ﻿using System.Text;
 using ZTALauncher;
-using static ZTALauncher.Enums;
+using ZTALauncher.Common;
+using static ZTALauncher.Common.Enums;
 
 void PrintAndTerminateErrorWrongArgument()
 {
     StringBuilder sb = new StringBuilder();
-    sb.Append(ZTAContext.Instance.Localization.GetString(Localization.TruthSource.missingArgument));
-    sb.Append(ZTAContext.Instance.Localization.GetString(Localization.TruthSource.exitCodeInfoMsg));
+    sb.Append(ApplicationContext.Instance.Localization.GetString(Localization.TruthSource.missingArgument));
+    sb.Append(ApplicationContext.Instance.Localization.GetString(Localization.TruthSource.exitCodeInfoMsg));
     sb.Append(ArgumentValidator.FaultyExitCode);
     Console.WriteLine(sb.ToString());
     Environment.Exit(ArgumentValidator.FaultyExitCode);
@@ -40,21 +41,21 @@ try
         if (!ArgumentValidator.CheckExecutableAccessibility(argumentValidator.ExecutablePath))
         {
             StringBuilder sb = new StringBuilder();
-            sb.Append(ZTAContext.Instance.Localization.GetString(Localization.TruthSource.errorFileAccessibility));
-            sb.Append(ZTAContext.Instance.Localization.GetString(Localization.TruthSource.exitCodeInfoMsg));
+            sb.Append(ApplicationContext.Instance.Localization.GetString(Localization.TruthSource.errorFileAccessibility));
+            sb.Append(ApplicationContext.Instance.Localization.GetString(Localization.TruthSource.exitCodeInfoMsg));
             if (verbose) Console.WriteLine($"{sb.ToString()} {ArgumentValidator.FaultyExitCode}");
             Environment.Exit(ArgumentValidator.FaultyExitCode);
         }
         else
         {
-            if (verbose) Console.WriteLine(ZTAContext.Instance.Localization.GetString(Localization.TruthSource.launching));
+            if (verbose) Console.WriteLine(ApplicationContext.Instance.Localization.GetString(Localization.TruthSource.launching));
             
-            ZTAContext.Instance.Set(mode, argumentValidator.ExecutablePath);
-            ZTAContext.Instance.LoadMode();
-            if (ZTAContext.Instance.LocalStore.Game != null 
-                && !string.IsNullOrEmpty(ZTAContext.Instance.LocalStore.Game.ExecutableSignature))
+            ApplicationContext.Instance.Set(mode, argumentValidator.ExecutablePath);
+            ApplicationContext.Instance.LoadMode();
+            if (ApplicationContext.Instance.LocalStore.Game != null 
+                && !string.IsNullOrEmpty(ApplicationContext.Instance.LocalStore.Game.ExecutableSignature))
             {
-                Console.WriteLine(ZTAContext.Instance.LocalStore.Game.ExecutableSignature);
+                Console.WriteLine(ApplicationContext.Instance.LocalStore.Game.ExecutableSignature);
             }
 
             // TODO: generate an error if it was not possible to print the signature

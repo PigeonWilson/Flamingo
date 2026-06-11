@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace ZTALauncher.Mode.Database.Table
+﻿
+namespace ZTALauncher.Common.Database.Table
 {
     public sealed class DLLMod
     {
