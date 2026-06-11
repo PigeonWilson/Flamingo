@@ -5,9 +5,11 @@
     <version>1.0.0</version>
     <authors>ZTALauncher</authors>
     <description>Package Description</description>
-    <repository type="git" commit="41efdb5e736f6795545f19b544b8af7a51242537" />
+    <repository type="git" commit="21755911648e5b8994b7be08e3f1741f5799dfb4" />
     <dependencies>
-      <group targetFramework="net10.0-windows7.0" />
+      <group targetFramework="net10.0-windows7.0">
+        <dependency id="System.Data.SQLite" version="2.0.3" exclude="Build,Analyzers" />
+      </group>
     </dependencies>
     <contentFiles>
       <files include="any/net10.0-windows7.0/83b7c3318014316d7442ea970ea97d2c0fdd3b5e_full.ico" buildAction="Content" />

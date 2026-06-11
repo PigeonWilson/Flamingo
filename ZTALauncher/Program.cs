@@ -1,5 +1,4 @@
 ﻿using System.Text;
-using ZTALauncher;
 using ZTALauncher.Common;
 using static ZTALauncher.Common.Enums;
 
