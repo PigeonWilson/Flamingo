@@ -5,7 +5,10 @@ Launch a game in low integrity mode. The game get launched as low integrity proc
 # instruction
 Build the project, put the solution in the same folder as the game to sandbox.
 # usage
-ZTALauncher.exe [program.exe] 
+ZTALauncher.exe [program.exe] [mode] [optional verbose flag]
+# example
+ZTALauncher.exe "notepad.exe" "vanilla" "verbose"
+
 # note
 ZTALauncher will generate a base 64 signature of the executable and print it in the console
 
